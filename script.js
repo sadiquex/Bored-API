@@ -3,7 +3,7 @@
 const storage = document.querySelector('.output')
 
 async function doSomething() {
-    const response = await fetch('http://www.boredapi.com/api/activity/')
+    const response = await fetch('https://www.boredapi.com/api/activity/')
     // console.log(response.json())
 
     // got json data here
