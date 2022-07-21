@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.info{
+    align-items: center;
+    background-color: beige;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+.output{
+    background-color: bisque;
+    padding: 20px 50px;
+    font-size: 1.1em;
+    margin: 10px auto;
+}
