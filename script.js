@@ -11,8 +11,9 @@ async function doSomething() {
     //  manipulate json data for what we want
       .then(data => {return data.activity});
 
+
     // store the data into html
-    storage.textContent = response;
+    storage.innerText = response;
       
 }
 
