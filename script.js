@@ -11,7 +11,7 @@ button.addEventListener('click', () => {
 
 async function doSomething() {
     const response = await fetch("https://www.boredapi.com/api/activity/", {
-      mode: "cors",
+      mode: "cors"
     })
       // console.log(response.json())
 
